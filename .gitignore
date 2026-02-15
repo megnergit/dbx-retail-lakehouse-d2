@@ -1,0 +1,78 @@
+# =====================
+# misc
+# =====================
+README
+BAKEHOUSE_DATABRICKS
+
+# =====================
+# Emacs
+# =====================
+*~
+\#*\#
+.\#*
+*.elc
+.auto-save-list/
+tramp
+.#*
+
+# =====================
+# Secrets / Environment
+# =====================
+.env
+.env.*
+!.env.example
+
+
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =====================
+# uv / Python packaging
+# =====================
+.uv/
+uv.lock
+
+# =====================
+# Test / coverage
+# =====================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+.idea/
+.vscode/
+
+# =====================
+# Databricks
+# =====================
+# Databricks CLI config (tokens etc.)
+.databrickscfg
+
+# Local Databricks artifacts
+.dbsql/
+.databricks/
+
+# Notebook checkpoints / outputs
+.ipynb_checkpoints/
+
+# =====================
+# Logs / runtime artifacts
+# =====================
+*.log
+logs/
+tmp/
