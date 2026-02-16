@@ -61,6 +61,52 @@ There is no real weekly pattern to see.
 ---
 ## GitHub integration
 
+We will link Databricks repo and GitHub repo. 
+
+Go to `Workspace`, and click on `Repos`.
+
+![Repo](./images/git-folder-1.png)
+
+Click on `Create Git Folder`.
+
+![Create Git Folder](./images/git-folder-2.png)
+
+Put your the URL of your GitHub repo  (it is okay that the repo is not empty), and click on `Create Git Folder`. 
+
+We will get the following.
+
+![Create Git Folder](./images/git-folder-3.png)
+
+We have to move the notebook that we created above into this folder. 
+
+Just drag and drop the notebook  `01_sql_eda_bakehouse` to the Git folder `dbx-retail-lakehouse-d2`.
+
+![Move Notebook](./images/move-2.png)
+
+Click on `Main` branch where we will push the notebook. 
+
+![Main branch](./images/main-1.png)
+
+Look at the lower left corner, and fill the commit message. Click on `Commit & Push`. 
+
+
+![Commit and push](./images/commit-1.png)
+
+I got `No Gi credential...` error. 
+
+![Commit and push 2](./images/error-1.png)
+
+Create a new personal access token (**classic**) at GitHub, and set it at `Git credential`. 
+
+![Commit and push 2](./images/git-1.png)
+
+Yes, the notebook is successfully pushed to my GitHub repo.
+
+Let us see if I can still push `README.md` from my laptop. 
 
 
 ---
+
+
+
+
