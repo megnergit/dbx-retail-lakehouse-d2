@@ -104,6 +104,17 @@ Yes, the notebook is successfully pushed to my GitHub repo.
 
 Let us see if I can still push `README.md` from my laptop. 
 
+But we need to rebase first. 
+```sh
+$ git pull --rebase origin main
+
+From github.com:megnergit/dbx-retail-lakehouse-d2
+ * branch            main       -> FETCH_HEAD
+Successfully rebased and updated refs/heads/main.
+```
+
+Then, commit and push. 
+
 
 ---
 
