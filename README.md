@@ -37,14 +37,14 @@ Or change the default language to SQL.
 
 ![SQL](./images/sql-1.png)
 
-**Tips** To run an SQL command, `Shift` + `Enter` in the cell. We do not need click on `Run` button every time. 
+**Tips** To run an SQL command, `Shift` + `Enter` in the cell. We do not need to click on `Run` button every time. 
 
 **Tips** You do not need to keep pressing shift key to write SQL query. Just write everything (like `SELECT` or `FROM`) in lower case, and type `Shift` + `Cmd` + `F` to format the script afterward. 
 
 ---
 ## Visualization
 
-After you create a table by SQL query, click on `+` in the table header, 
+After you create a table with SQL query, click on `+` in the table header, 
 
 ![Vialization](./images/visualize-1.png)
 
@@ -56,12 +56,12 @@ Let us plot the total sum of daily sales over all products over all franchise.
 
 ![Plot-2](./images/plot-2.png)
 
-There is no real weekly pattern to see. 
+There is no real weekly pattern in the sales.
 
 ---
 ## GitHub integration
 
-We will link Databricks repo and GitHub repo. 
+We will link the Databricks repo and GitHub repo. 
 
 Go to `Workspace`, and click on `Repos`.
 
@@ -71,7 +71,7 @@ Click on `Create Git Folder`.
 
 ![Create Git Folder](./images/git-folder-2.png)
 
-Put your the URL of your GitHub repo  (it is okay that the repo is not empty), and click on `Create Git Folder`. 
+Put the URL of your GitHub repo  (it is okay that the repo is not empty), and click on `Create Git Folder`. 
 
 We will get the following.
 
@@ -92,7 +92,7 @@ Look at the lower left corner, and fill the commit message. Click on `Commit & P
 
 ![Commit and push](./images/commit-1.png)
 
-I got `No Gi credential...` error. 
+I got `No Git credential...` error. 
 
 ![Commit and push 2](./images/error-1.png)
 
@@ -104,7 +104,7 @@ Yes, the notebook is successfully pushed to my GitHub repo.
 
 Let us see if I can still push `README.md` from my laptop. 
 
-But we need to rebase first. 
+We need to rebase the local repo first. 
 ```sh
 $ git pull --rebase origin main
 
