@@ -114,7 +114,7 @@ Successfully rebased and updated refs/heads/main.
 ```
 
 Then, commit and push. 
-
+All right. Successful. 
 
 ---
 
